@@ -5,8 +5,8 @@ provider "aws" {
 
 provider "archive" {}
 
-# Lambda
-
+/* Lambda
+*/
 data "archive_file" "lambda" {
   type        = "zip"
   source_dir  = "../lambda"
